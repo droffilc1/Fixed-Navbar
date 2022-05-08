@@ -1,0 +1,87 @@
+body {
+    font-family: poppins;
+}
+
+.wrapper {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: url(/main.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-area,
+.services-area,
+.portfolio-area,
+.contact-area {
+    height: 100vh;
+}
+
+.text-content h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 90px;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 5px 10px #000;
+
+}
+
+.side-navbar {
+    height: 100%;
+    width: 248px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.side-navbar a{
+    padding: 50px 10px 10px 50px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.side-navbar a:hover {
+    color: deeppink;
+}
+
+.contact-area {
+    margin-left: 230px;
+    padding: 0 10px;
+}
+
+#about {
+    background: darkkhaki;
+}
+
+#services {
+    background: darkorchid;
+}
+
+#portfolio {
+    background: darksalmon;
+}
+
+#contact {
+    background: dodgerblue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
